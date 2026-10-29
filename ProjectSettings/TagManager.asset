@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Projectile
   - Echo
+  - PlayerBu
+  - GalagaShip
+  - GalagaPlayer
+  - Enemy
+  - Powerup
+  - PowBu
   layers:
   - Default
   - TransparentFX

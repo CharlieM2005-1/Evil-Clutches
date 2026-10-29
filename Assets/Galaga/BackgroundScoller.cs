@@ -1,0 +1,17 @@
+using UnityEngine;
+using UnityEngine.Rendering;
+
+public class BackgroundScoller : MonoBehaviour
+{
+    public float speed = 8f;
+    public float var1 = -5;
+    public float var2 = 16;
+    void Update()
+    {
+        transform.Translate(-transform.up * speed * Time.deltaTime);
+        if(transform.position.y < var1)
+        {
+            transform.position = new Vector3(transform.position.x, var2, transform.position.z);
+        }
+    }
+}
